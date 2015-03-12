@@ -1,0 +1,124 @@
+*{
+	color:white;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+
+#container{
+width:1280px;
+background:url(../images/bg.png) no-repeat;
+margin:0 auto;
+height:1302px;
+}
+.sub_container{
+	width:950px;
+	margin:auto;
+	
+	
+	padding-top: 18px;
+
+}
+
+.col1{width:33.15%;float:left;}
+.col2{width:33.15%;float:left;margin-top: 10px;}
+.col3{width:33.15%;float:left;}
+.search{width:164px;border:none;}
+.search-button{width:26px;float:left;border:none;background:url(../images/search.png) center center no-repeat;height: 22px;}
+.sbox{float:right;background-color: white;}	
+.menu{width:950px;	margin-top:30px;box-shadow: 2px 2px 5px #fff }
+.menu ul{
+margin-top: -5px;
+	padding:0;
+}
+.menu ul li{
+	float:left;
+	
+	list-style-type: none;
+color:white;
+display:inline-block;
+font-size: 22px;
+font-family: arial;
+border:1px solid white;
+width:190px;
+height:34px;
+background-color: #74ac41;
+text-align: center;
+
+
+}
+.option button{background-color: #74ac41;}
+.menu ul li:hover{
+
+	background-color: #217480;
+}
+.content-body{
+
+	height:925px;
+}
+@font-face {
+font-family: 'stylish';
+src: url("../font/man.ttf");
+}
+.about-content{margin-top: 38px;font-family: arial;font-size:14.5px;padding-right:30px;}
+
+
+
+.gallaryview{width:100%;}
+.gridview{display:none;width:100%;padding-top:5%;}
+
+
+/**gridview lightbox**/
+.footer{
+	
+	padding:15px;
+	width:100%;
+	bottom: 0;
+	padding:0;
+	color:white;
+	font-size: 14px;
+	font-family: arial;
+	
+		
+}
+
+.pictureContainer {
+
+    height: 40px;
+    width:273px;
+    margin:auto;
+    overflow: hidden;
+    border-bottom:1px solid #white;
+    box-shadow: 0px 2px 0px 0px #fff;
+    margin-bottom:35px; 
+
+}
+.pictureContainer img {
+    position: relative;
+   width:40px;
+
+    bottom: -20px;
+    
+padding-left:12px;
+transition: bottom .5s ease-in-out;
+}
+.pictureContainer img:hover {
+    bottom: 0px;
+transition: bottom .2s ease-in-out;
+}
+.footer-text{
+	color:#1abdd0;border-right:1px solid #fff;padding-left:5px;padding-right:5px;
+	font-size: 10px;font-family: arial;
+}
+.stylish-font{	font-family: stylish;}
